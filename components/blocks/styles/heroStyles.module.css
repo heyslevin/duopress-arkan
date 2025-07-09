@@ -1,0 +1,94 @@
+.row {
+  background: #1868ff;
+  height: 10vh;
+  width: 100%;
+  animation: fade 2s infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+.row-1 {
+  animation-delay: 0s;
+}
+.row-2 {
+  animation-delay: 0.2s;
+}
+.row-3 {
+  animation-delay: 0.4s;
+}
+.row-4 {
+  animation-delay: 0.6s;
+}
+.row-5 {
+  animation-delay: 0.8s;
+}
+.row-6 {
+  animation-delay: 1s;
+}
+.row-7 {
+  animation-delay: 1.2s;
+}
+.row-8 {
+  animation-delay: 1.4s;
+}
+
+.row-9 {
+  animation-delay: 1.6s;
+}
+.row-10 {
+  animation-delay: 1.8s;
+}
+
+@keyframes fade {
+  0% {
+    background: #0936fb;
+  }
+  50% {
+    background: #0018b7;
+  }
+  100% {
+    background: #790ada;
+  }
+}
+
+@media (max-width: 650px) {
+  .row {
+    background: #1868ff;
+    height: 15vh;
+    width: 100%;
+    animation: fade 2s infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+  }
+
+  .row-1 {
+    animation-delay: 0s;
+  }
+  .row-2 {
+    animation-delay: 0.2s;
+  }
+  .row-3 {
+    animation-delay: 0.4s;
+  }
+  .row-4 {
+    animation-delay: 0.6s;
+  }
+  .row-5 {
+    animation-delay: 0.8s;
+  }
+  .row-6 {
+    animation-delay: 1s;
+  }
+  .row-7 {
+    animation-delay: 1.2s;
+  }
+  .row-8 {
+    animation-delay: 1.4s;
+  }
+
+  .row-9 {
+    animation-delay: 1.6s;
+  }
+  .row-10 {
+    animation-delay: 1.8s;
+  }
+}
