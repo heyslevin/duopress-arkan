@@ -21,7 +21,7 @@ export default function Hero({ block }: { block: HeroType }) {
         >
           <section className="flex w-full flex-col justify-start gap-6">
             {block.heading && (
-              <h1 className="max-w-3xl text-balance font-display text-6xl md:text-[80px]">
+              <h1 className="max-w-3xl text-balance font-display text-6xl md:text-9xl">
                 {block.heading}
               </h1>
             )}
